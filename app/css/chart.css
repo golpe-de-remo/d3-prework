@@ -1,3 +1,6 @@
+svg {
+	width: 100%;
+}
 .x-axis path{
   display: block;
   border: 1px solid red;

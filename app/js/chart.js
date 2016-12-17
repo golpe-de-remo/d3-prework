@@ -70,9 +70,6 @@ d3.tsv("data.tsv", function(data) {
         var point = d3.scalePoint()
                         .domain(maxMinDate)
                         .range([margin.left, width-margin.right]);
-;
-        console.log()
-
         g.append("text")
             .attr("class", "point-info")
             .attr("x", event.offsetX+10)
