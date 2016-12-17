@@ -1,0 +1,12 @@
+.x-axis path{
+  display: block;
+  border: 1px solid red;
+  color: red !important;
+  background-color:;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;	
+}
